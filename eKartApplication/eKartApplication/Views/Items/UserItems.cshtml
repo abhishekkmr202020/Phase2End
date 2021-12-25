@@ -1,0 +1,31 @@
+﻿@model IEnumerable<EntityLibrary.Items>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="display-4">Welcome User</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NAME)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NAME)
+                </td>
+                <td>
+                    <a asp-action="Buy" asp-route-id="@item.ID">Buy</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

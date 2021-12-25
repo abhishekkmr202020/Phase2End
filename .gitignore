@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/eKartApplication/DataLibrary/obj
+/eKartApplication/DataLibrary/bin/Debug/net5.0
+/eKartApplication/.vs/eKartApplication
+/eKartApplication/eKartApplication/obj
+/eKartApplication/eKartApplication/bin/Debug/net5.0
+/eKartApplication/EntityLibrary/obj
+/eKartApplication/EntityLibrary/bin/Debug/net5.0
